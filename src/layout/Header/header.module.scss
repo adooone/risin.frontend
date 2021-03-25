@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        height: 25px;
+        object-fit: contain;
+        padding: 10px;
+    }
+
+    p {
+        font-weight: 600;
+    }
+}

@@ -1,11 +1,21 @@
 import React from 'react';
-import Routes from '~/pages/Routes';
+import styles from '../home.module.scss';
+// import Routes from '~/pages/Routes';
 
 const Home: React.FC = () => {
-  console.log(Routes);
   return (
-    <div className="Home">
-      <p className="description">Your app here...</p>
+    <div className={styles.home}>
+      <div className={styles.home_item}>
+        <div className={styles.we_are}>
+          <h1>WE</h1>
+          <h1>ARE</h1>
+        </div>
+        <div className={styles.button_link}>
+          <div className={styles.label}>Photography</div>
+          <div className={styles.info}>We o!er object and advertizing photo sessions and anything you want.</div>
+          <button className={styles.buttton}></button>
+        </div>
+      </div>
     </div>
   );
 };
